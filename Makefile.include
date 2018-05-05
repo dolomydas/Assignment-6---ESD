@@ -1,0 +1,7 @@
+# Set the name of your application:
+APPLICATION = Assignment_6_ESD_main
+# If no BOARD is found in the environment, use this default:
+BOARD ?= native
+# This has to be the absolute path to the RIOT base directory:
+RIOTBASE ?= $(CURDIR) /home/dolli/Downloads/RIOT-2018.01/
+include $(RIOTBASE)/Makefile.include
